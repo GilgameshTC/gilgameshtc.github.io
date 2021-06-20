@@ -9,7 +9,14 @@ $gray-800: #343a40;
 // Override Bootstrap color system
 
 $orange: #bd5d38;
+$theme-background: #2A363b;
+$theme-nav: #99B898;
+$theme-primary: #FF847C;
+$theme-secondary: #FECEA8;
+$theme-accent: #E84A5F;
+$theme-font-body: #E6E0DF;
 
 // Override Bootstrap default state colors
 
-$primary: $orange;
+$primary: $theme-primary;
+$secondary: $theme-nav;

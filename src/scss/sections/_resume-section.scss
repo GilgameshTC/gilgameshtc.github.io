@@ -9,10 +9,21 @@ section.resume-section {
     padding-right: 1rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    max-width: 75rem;
+    max-width: 100%;
+    background-color: $theme-background;
 
     .resume-section-content {
         width: 100%;
+        max-width: 75rem;
+    }
+
+    .resume-section-image {
+        width: auto;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: -3rem;
+        margin-top: -5rem;
+        margin-bottom: -5rem;
     }
 }
 
