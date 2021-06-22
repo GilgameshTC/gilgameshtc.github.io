@@ -71,6 +71,21 @@ button {
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
 
+    &.navbar-toggler {
+        background-color: $theme-nav !important;
+        border-color: $theme-nav !important;
+        margin-bottom: 0rem;
+        margin-right: 0rem;
+
+        &:focus
+        &:active
+        &:hover
+        &.navbar-toggler-icon:focus {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    }
+
     &:hover {
         background-color: $primary !important;
     }
