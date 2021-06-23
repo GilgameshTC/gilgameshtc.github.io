@@ -12742,14 +12742,18 @@ button {
   margin-right: 1.5rem;
 }
 button.navbar-toggler {
+  width: 2.75rem;
   background-color: #99B898 !important;
   border-color: #99B898 !important;
+  border-radius: 1.325rem;
   margin-bottom: 0rem;
   margin-right: 0rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
-button.navbar-toggler:focus button.navbar-toggler:active button.navbar-toggler:hover button.navbar-toggler.navbar-toggler-icon:focus {
-  outline: none !important;
-  box-shadow: none !important;
+button.navbar-toggler:hover {
+  background-color: #99B898 !important;
+  outline-color: #99B898 !important;
 }
 button:hover {
   background-color: #FF847C !important;
@@ -12772,10 +12776,6 @@ button:last-child {
 }
 #sideNav .navbar-toggler-icon {
   background-image: url("../../assets/img/favicon.ico");
-}
-#sideNav .navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
 }
 
 @media (min-width: 992px) {

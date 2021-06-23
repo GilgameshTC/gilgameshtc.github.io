@@ -72,17 +72,18 @@ button {
     margin-right: 1.5rem;
 
     &.navbar-toggler {
+        width: 2.75rem;
         background-color: $theme-nav !important;
         border-color: $theme-nav !important;
+        border-radius: 1.325rem;
         margin-bottom: 0rem;
         margin-right: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
 
-        &:focus
-        &:active
-        &:hover
-        &.navbar-toggler-icon:focus {
-            outline: none !important;
-            box-shadow: none !important;
+        &:hover {
+            background-color: $theme-nav !important;
+            outline-color: $theme-nav !important;
         }
     }
 
