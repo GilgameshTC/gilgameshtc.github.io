@@ -14,6 +14,12 @@ section.resume-section {
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
+
+    &.with-signature {
+        background-image: url('../assets/img/TC-Logo.png');
+        background-size: 15%;
+    }
+
 }
 
 @media screen and (orientation: landscape) {
@@ -24,6 +30,10 @@ section.resume-section {
 
         .resume-section-content {
             max-width: 75rem;
+        }
+
+        &.with-signature {
+            background-position: right bottom;
         }
     }
 }
@@ -44,6 +54,10 @@ section.resume-section {
                 -webkit-backdrop-filter: blur(0);
             }
         }
+
+        &.with-signature {
+            background-position: right bottom;
+        }
     }
 }
 
@@ -62,6 +76,11 @@ section.resume-section {
                 backdrop-filter: blur(0);
                 -webkit-backdrop-filter: blur(0);
             }
+        }
+
+        &.with-signature {
+            background-position: right bottom;
+            background-size: 35% !important;
         }
     }
 }
