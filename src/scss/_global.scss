@@ -95,3 +95,22 @@ button {
         margin-right: 0;
     }
 }
+
+.iframe-container {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 45%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    iframe {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+     }
+}

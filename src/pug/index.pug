@@ -49,6 +49,8 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#dissertation') B.Comp Dissertation
 
         // Page Content
         .container-fluid.p-0
@@ -232,7 +234,7 @@ html(lang='en')
                         li.list-inline-item 
                             i.devicon-figma-plain
                     .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
+                    ul.fa-ul
                         li
                             span.fa-li
                                 i.fas.fa-check
@@ -245,6 +247,11 @@ html(lang='en')
                             span.fa-li
                                 i.fas.fa-check
                             | Agile Development & Scrum
+                    .subheading.mb-3 Languages
+                    ul
+                        li Native Proficiency · English · Chinese
+                        li Working Proficiency · Malay
+                        li Limited Proficiency · Chinese (Hokkien) · Chinese (Cantonese)                    
 
             hr.m-0
 
@@ -324,6 +331,48 @@ html(lang='en')
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
                             | Merit (Individual) - Malaysia ASEAN Schools Math Olympiads (MASMO 2012)
+                
+            hr.m-0
+
+            // B.Comp Dissertation (FYP)
+            section#dissertation.resume-section.with-signature
+                .resume-section-content.no-blur
+                    h2 B.Comp Dissertation (NUS CP4101) · VizBlocks
+                    .subheading.mb-5 Grade · A+ · Aug 2020 - Apr 2021
+                    h2.subheading.mb-3 About
+                    div.iframe-container.mb-3
+                        iframe(
+                            src='https://www.youtube.com/embed/Oowtin1JjPQ?autoplay=1&mute=1&loop=1&playlist=Oowtin1JjPQ'
+                            title='YouTube video player'
+                            frameborder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                            allowfullscreen
+                        )
+                    p
+                        | VizBlocks is an extension of Scratch built with the purpose to allow children to learn data visualization literacy skills creatively 
+                        | whilst strongly enforcing knowledge on the individual parts that make up a data visualization.
+                    p
+                        | The VizBlocks website serves as a one-stop platform to access materials used for teaching and learning of data visualization literacy, access the Vizblocks tool as well as contribute to the resources.
+                        | This in turn, builds a community shared learning!
+                    h2.subheading.mb-3 Role
+                    ul
+                        li UI/UX Prototyping
+                        li Individual Full Stack Development of website 
+                        li Dev Ops, Setting Up Docker Containers & Server
+                        li Literature Review, Usability Testing & Hypothesis Testing
+                    h2.subheading.mb-3 Long Paper
+                        a.no-underline(href='./assets/docs/vizblocks-longpaper.pdf' target='_blank')
+                            button(type='button' style='margin-bottom: 0rem; margin-left: 1.5rem;') PDF
+                    h2.subheading.mb-3 Short Paper · CTE-STEM 2021 Conference Proceedings
+                        .br
+                        a(
+                            href='https://cte-stem2021.nie.edu.sg/assets/docs/CTE-STEM_Compiled-Proceedings.pdf#page=80'
+                            target='_blank'
+                            style="font-size: 0.9rem; font-style: italic; display: inline-block"
+                        ) 
+                            | Travis Jia Yea CHING, Bimlesh WADHWA 2021, ‘VizBlocks: A Data Visualization Literacy Education Tool’,
+                            | Proceedings of the 5th APSCE International Computational Thinking and STEM in Education Conference 2021. 
+                            | Singapore: National Institute of Education.
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js')
