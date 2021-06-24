@@ -12742,20 +12742,42 @@ button {
   margin-right: 1.5rem;
 }
 button.navbar-toggler {
+  width: 2.75rem;
   background-color: #99B898 !important;
   border-color: #99B898 !important;
+  border-radius: 1.325rem;
   margin-bottom: 0rem;
   margin-right: 0rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
-button.navbar-toggler:focus button.navbar-toggler:active button.navbar-toggler:hover button.navbar-toggler.navbar-toggler-icon:focus {
-  outline: none !important;
-  box-shadow: none !important;
+button.navbar-toggler:hover {
+  background-color: #99B898 !important;
+  outline-color: #99B898 !important;
 }
 button:hover {
   background-color: #FF847C !important;
 }
 button:last-child {
   margin-right: 0;
+}
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 45%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 #sideNav {
@@ -12772,10 +12794,6 @@ button:last-child {
 }
 #sideNav .navbar-toggler-icon {
   background-image: url("../../assets/img/favicon.ico");
-}
-#sideNav .navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
 }
 
 @media (min-width: 992px) {
@@ -12854,6 +12872,10 @@ section.resume-section .resume-section-content {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+section.resume-section.with-signature {
+  background-image: url("../assets/img/TC-Logo.png");
+  background-size: 15%;
+}
 
 @media screen and (orientation: landscape) {
   section.resume-section {
@@ -12863,6 +12885,9 @@ section.resume-section .resume-section-content {
   }
   section.resume-section .resume-section-content {
     max-width: 75rem;
+  }
+  section.resume-section.with-signature {
+    background-position: right bottom;
   }
 }
 @media screen and (max-width: 1366px) and (orientation: landscape) {
@@ -12880,6 +12905,9 @@ section.resume-section .resume-section-content {
     backdrop-filter: blur(0);
     -webkit-backdrop-filter: blur(0);
   }
+  section.resume-section.with-signature {
+    background-position: right bottom;
+  }
 }
 @media screen and (orientation: portrait) {
   section.resume-section {
@@ -12895,6 +12923,10 @@ section.resume-section .resume-section-content {
   section.resume-section .resume-section-content.no-blur {
     backdrop-filter: blur(0);
     -webkit-backdrop-filter: blur(0);
+  }
+  section.resume-section.with-signature {
+    background-position: right bottom;
+    background-size: 35% !important;
   }
 }
 @media (min-width: 768px) {
